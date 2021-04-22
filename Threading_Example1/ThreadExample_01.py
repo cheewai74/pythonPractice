@@ -15,6 +15,7 @@ for i in range(3):
     j = threading.Thread(target = sleepy_man_multiThread, args = (5-i,))
     j.start()
 
+
 print("Active threads- ", threading.activeCount())
 
 x = threading.Thread(target = sleepy_man, args = (4,))
