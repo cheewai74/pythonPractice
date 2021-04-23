@@ -1,0 +1,7 @@
+
+# Using dir() to determine which built-in attributes are present
+print(dir(MyInstance))
+
+help('__class__')
+
+class method only works with class data, it doesn't know about any data associated with an instance data
