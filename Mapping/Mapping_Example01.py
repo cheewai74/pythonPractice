@@ -2,6 +2,8 @@
     Map method will take the function we would like to map as well as iterable
     as positional arguments in that order
 
+    map(function_object, iterable1, iterable2,...)
+
     # Output
     [10, 15, 20, 25]
     [10, 15, 20, 25]
