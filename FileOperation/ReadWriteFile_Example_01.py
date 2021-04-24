@@ -10,7 +10,7 @@ the_file.close()
 """
     Example 2: Read a file
 """
-the_file = open("integers.txt", "w")
+the_file = open("integers.txt", "r")
 lines = the_file.readlines()
 for line in lines:
     print(line)
