@@ -31,7 +31,7 @@ class vehicle:
         self.speed = max(self.speed, -5)
 
 
-class Bus(vehicle): # Inheritance
+class Bus(vehicle): # Inheritance,
 
     def slow_down(self, speed_difference):
         super().slowdown(speed_difference)  # overrides the behaviour of vehicle class,
