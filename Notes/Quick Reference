@@ -1,0 +1,20 @@
+# -- Sequence Description --
+\\ Backslash. Prints one backslash.
+\' Single quote. Prints a single quote.
+\" Double quote. Prints a double quote.
+\a Bell. Sounds the system bell.
+\n Newline. Moves cursor to beginning of next line.
+\t Horizontal tab. Moves cursor forward one tab stop.
+
+\ line continuation
++ Concatenate
+
+# --  Example Concatenate --
+print("\nThis string " + "may not " + "seem terr" + "ibly impressive. " \
++ "But what " + "you don't know" + " is that\n" + "it's one real" \
++ "l" + "y" + " long string, created from the concatenation " \
++ "of " + "twenty-two\n" + "different strings, broken across " \
++ "six lines." + " Now are you" + " impressed? " + "Okay,\n" \
++ "this " + "one " + "long" + " string is now over!")
+
+

@@ -1,0 +1,5 @@
+>>> fruits = ['avocados', 'bananas', 'oranges', 'grapes', 'mangos']
+>>> fruits[2:-2]
+['oranges']
+>>> fruits[1:4:2]
+['bananas', 'grapes']

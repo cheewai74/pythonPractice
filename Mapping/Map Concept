@@ -1,0 +1,7 @@
+Map method will take the function we would like to map as well as iterable
+as positional arguments in that order
+
+a map function, is a function that accepts a function and an array as arguments, and applies the given function
+to each element of the array, returning another array with the result of each transformation
+
+map(function_object, iterable1, iterable2,...)
