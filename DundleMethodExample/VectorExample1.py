@@ -48,7 +48,7 @@ class Vector02:
 
     def __repr__(self):
         print("__repr__ was invoked")
-        return f'Vector01({self.x}, {self.y})'
+        return f'Vector02({self.x}, {self.y})'
 
     def __str__(self):
         print("__str__ was invoked")
@@ -73,7 +73,7 @@ class Vector03:
 
     def __repr__(self):
         print("__repr__ was invoked")
-        return f'Vector01({self.x}, {self.y})'
+        return f'Vector03({self.x}, {self.y})'
 
     def __str__(self):
         print("__str__ was invoked")
@@ -94,9 +94,9 @@ class Vector03:
 
     def __call__(self):
         print("__call__ was invoked")
-        print(f"Vector({self.x}, {self.y}) was called.")
+        print(f"Vector03({self.x}, {self.y}) was called.")
         return (self.x * self.x + self.y * self.y) ** (1 / 2)
 
 
-vector4 = Vector03(12, 8)
+vector4 = Vector03(15, 8)
 print(vector4)
