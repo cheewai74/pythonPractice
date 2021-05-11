@@ -1,6 +1,12 @@
 
+Self provides a convenient way to access and modify an object within a method
+
+#Using id() to determine if object is mutable or immutable
+
 # Using dir() to determine which built-in attributes are present
 print(dir(MyInstance))
+
+using is to determine if both object is the same.
 
 help('__class__')
 

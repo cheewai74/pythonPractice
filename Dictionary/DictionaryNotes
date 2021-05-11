@@ -6,3 +6,11 @@ d={}
 d.update({1:"one", 2:"two"})
 d
 
+rolodex ={'Aaron' : 5551234,
+           'Sam' : 7778888,
+           'Tony' : 2221111}
+
+def caller_id(lookup_number):
+    for name, num in rolodex.items():
+          if num == lookup_number:
+            return name
