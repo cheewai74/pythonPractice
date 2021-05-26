@@ -1,0 +1,9 @@
+Go to File -> Settings(ctrl + alt + s) -> Project Interpreter ->
+click on "+" -> Search for the Package name (Tkinter) -> Click on "Install Package".
+
+import TkinterExtensions
+
+>>> import tkinter
+>>> import _tkinter
+>>> tkinter._test()
+>>>
