@@ -14,3 +14,7 @@ def caller_id(lookup_number):
     for name, num in rolodex.items():
           if num == lookup_number:
             return name
+
+# dictionary comprehension example
+square_dict = {num: num*num for num in range(1, 11)}
+print(square_dict)

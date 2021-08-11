@@ -17,4 +17,6 @@ print("\nThis string " + "may not " + "seem terr" + "ibly impressive. " \
 + "six lines." + " Now are you" + " impressed? " + "Okay,\n" \
 + "this " + "one " + "long" + " string is now over!")
 
-
+You can then apply the format method to a format specification string to produce
+an output string.
+format_spec_string.format(arguments)
