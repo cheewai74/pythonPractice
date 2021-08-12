@@ -1,4 +1,4 @@
-import os
+
 
 file_list = os.listdir()
 for item in file_list:
