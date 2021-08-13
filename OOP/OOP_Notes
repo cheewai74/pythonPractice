@@ -115,3 +115,51 @@ Pet._ _init_ _(self, name, breed, age)
 a method. Class variables are shared by all members of the class and are always
 referred to with the syntax class_name.var, rather than object_name.var
 or self.var.
+
+Getter Methods
+To write a getter method for a property, place the following definition inside
+a class:
+
+@property # "Getter" method
+def property_name(self):
+    statements
+    return value
+
+class MyClass:
+    def _ _init_ _(self):
+        self._a = self._b = self_c = -1
+
+@property # "Getter" for property a
+def a(self):
+    return self._a
+
+@property # "Getter" for property b
+def b(self):
+    return abs(self._b)
+
+@property # "Getter" for property c
+def c(self):
+    return self._c % 2 == 0
+
+To build your own iterable in Python, write a generator function. Instead of
+returning a value, the generator uses a yield statement.
+yield x
+
+The getter method for a property is called when the user of a class tries to get
+the value of the property. A getter has this syntax:
+
+@property
+def property_name(self):
+    statements
+    return value
+
+ The setter method for a property is called when the user of a class tries to set
+the property’s value. A setter has this syntax:
+
+@property_name.setter
+def(self, new_value):
+    statements
+
+In Python, functions have attributes, just as other objects do. You can use the
+__fname__ attribute to get the name of the function at the time it was defined.
+print(f.__name__)
