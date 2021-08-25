@@ -1,0 +1,4 @@
+any(
+    condition(item)
+    for item in iterable
+    )
