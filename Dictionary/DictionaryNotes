@@ -1,5 +1,6 @@
 Dictionaries in Python are data structures that optimize element lookups by associating keys to values.
 Dictionaries are mutable data structures.
+Curly brackets are used to define both dictionaries and sets.
 The in keyword is a tool Python provides to, in this case, check whether a key is present in a dictionary or not.
 
 d={}

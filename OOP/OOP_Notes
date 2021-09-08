@@ -163,3 +163,10 @@ def(self, new_value):
 In Python, functions have attributes, just as other objects do. You can use the
 __fname__ attribute to get the name of the function at the time it was defined.
 print(f.__name__)
+
+This sets the new value if one is provided, and then returns the currently set value.
+
+if c: self._color=c
+return self._color
+
+If your variables are encapsulated, this means they belong to the object and not to the class.
